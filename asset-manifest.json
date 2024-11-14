@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CardReactPortfolio/static/css/main.1de244f6.css",
+    "main.css": "/CardReactPortfolio/static/css/main.ad0adb43.css",
     "main.js": "/CardReactPortfolio/static/js/main.3d2d51d8.js",
     "static/js/453.ce7513b6.chunk.js": "/CardReactPortfolio/static/js/453.ce7513b6.chunk.js",
     "static/media/2340.png": "/CardReactPortfolio/static/media/2340.c135333fb5280e037bfe.png",
     "index.html": "/CardReactPortfolio/index.html",
-    "main.1de244f6.css.map": "/CardReactPortfolio/static/css/main.1de244f6.css.map",
+    "main.ad0adb43.css.map": "/CardReactPortfolio/static/css/main.ad0adb43.css.map",
     "main.3d2d51d8.js.map": "/CardReactPortfolio/static/js/main.3d2d51d8.js.map",
     "453.ce7513b6.chunk.js.map": "/CardReactPortfolio/static/js/453.ce7513b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1de244f6.css",
+    "static/css/main.ad0adb43.css",
     "static/js/main.3d2d51d8.js"
   ]
 }
