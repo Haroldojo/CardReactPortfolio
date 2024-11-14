@@ -1,0 +1,69 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.backb{
+    margin-left:150px;
+    height:100%;
+    width:70vw;
+    background: linear-gradient(45deg,rgb(67, 79, 78),rgba(5, 241, 100, 0.412),rgb(50, 107, 117));
+    border-radius:30px;
+}
+.back{
+   height:300px;
+   width:250px;
+   border-radius:30px;
+   border:20px solid rgb(18, 107, 202);
+   background-color: rgb(14, 190, 248);
+   margin-top: 100px;
+   box-shadow: 10px 10px 20px rgba(36, 46, 124, 0.87);
+   background: linear-gradient(190deg, #21519f, #6788bd, #becdd5);
+   transition: transform 2s ease;
+   cursor:pointer;
+}
+
+.back:hover{
+    transform:translate(350px);
+}
+.back .right{
+    height:110px;
+    width:100%;
+    text-align: left;
+}
+.back .right h1{
+    margin:10px;
+    text-align: left;
+}
+.back .right p{
+    margin:10px;
+    text-align: left;
+}
+.header{
+    height:50%;
+    width:100%;
+    /* overflow: hidden; */
+}
+.header img{
+    height:100%;
+    width:40%;
+    margin:10px;
+    object-fit: cover;
+    border-radius:20px;
+    box-shadow:10px 10px 30px rgb(0, 0, 0);    
+}
+
+@media (max-width: 768px) {
+    .backb {
+      margin:0px;
+      width: 100vw;
+    }
+    .back{
+        height:280px;
+        width:250px;
+        transition:transform 1s ease;
+    }
+    .back:hover{
+        transform:translateX(90px);
+    }
+}

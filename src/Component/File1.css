@@ -1,0 +1,75 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Main container */
+  .backb {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 90vw;
+    background: linear-gradient(45deg, rgb(67, 79, 78), rgba(5, 241, 100, 0.412), rgb(50, 107, 117));
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Card container */
+  .back {
+    height: 300px;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 30px;
+    border: 20px solid rgb(18, 107, 202);
+    background: linear-gradient(190deg, #21519f, #6788bd, #becdd5);
+    box-shadow: 10px 10px 20px rgba(36, 46, 124, 0.87);
+    transition: transform 0.5s ease; /* Smooth transition for transform */
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  /* Hover effect on larger screens */
+  .back:hover {
+    transform: translateX(20px); /* Slight hover effect for desktop */
+  }
+  
+  /* Responsive styles for mobile screens */
+  @media (max-width: 768px) {
+    .backb {
+      width: 100vw;
+      padding: 15px;
+    }
+  
+    .back {
+      width: 80vw; /* Adjust card width for mobile */
+      max-width: none;
+      height: 250px; /* Slightly smaller height on mobile */
+      margin-top: 20px;
+    }
+  
+    /* Animation: Move from left to right on hover */
+    .back:hover {
+      transform: translateX(30px); /* More noticeable translation on mobile */
+    }
+    
+    /* Header image for mobile */
+    .header img {
+      width: 50%;
+      max-width: 80px;
+    }
+  
+    /* Text scaling on mobile */
+    .back .right h1 {
+      font-size: 1.2rem;
+    }
+  
+    .back .right p {
+      font-size: 0.9rem;
+    }
+  }
+  
